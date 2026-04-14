@@ -14,7 +14,7 @@ namespace FinanceTracker.Models
 
         public string Description { get; set; }
         [Required]
-        public DateTime Date {  get; set; }
+        public DateOnly Date {  get; set; }
         [Required]
         public int UserId { get; set; }
         [ForeignKey("UserId")]

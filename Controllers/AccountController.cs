@@ -55,6 +55,20 @@ namespace FinanceTracker.Controllers
             return View();
         }
 
+        //GET: Account/Index
+        public IActionResult Index()
+        {
+            if (!IsLoggedIn()) return RedirectToAction("Login");
+
+            var userId = HttpContext.Session.GetInt32("UserId");
+            var user = _context.Users.FirstOrDefault(u => u.UserId == userId);
+
+            if (user == null) return RedirectToAction("Login");
+
+            return View(user);
+        }
+        private bool IsLoggedIn() => HttpContext.Session.GetInt32("UserId") != null;
+
         // POST: Account/Login
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -72,6 +86,40 @@ namespace FinanceTracker.Controllers
             HttpContext.Session.SetString("UserName", user.Name);
 
             return RedirectToAction("Index", "Transactions");
+        }
+
+        //Post: Account/change password
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult ChangePassword(string currentPassword, string newPassword, string confirmPassword)
+        {
+            if (!IsLoggedIn()) return RedirectToAction("Login");
+
+            var userId = HttpContext.Session.GetInt32("UserId");
+            var user = _context.Users.FirstOrDefault(u => u.UserId == userId);
+
+            if (user == null) return RedirectToAction("Login");
+
+            // Verify current password
+            if (!BCrypt.Net.BCrypt.Verify(currentPassword, user.PasswordHash))
+            {
+                ViewBag.Error = "Current password is incorrect.";
+                return View("Index", user);
+            }
+
+            // Check new passwords match
+            if (newPassword != confirmPassword)
+            {
+                ViewBag.Error = "New passwords do not match.";
+                return View("Index", user);
+            }
+
+            // Update password
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(newPassword);
+            _context.SaveChanges();
+
+            ViewBag.Success = "Password changed successfully!";
+            return View("Index", user);
         }
 
         // GET: Account/Logout

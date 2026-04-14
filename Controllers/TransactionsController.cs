@@ -18,10 +18,13 @@ namespace FinanceTracker.Controllers
         {
             _context = context;
         }
+        private bool IsLoggedIn() => HttpContext.Session.GetInt32("UserId") != null;
+
 
         // GET: Transactions
         public async Task<IActionResult> Index()
         {
+            if (!IsLoggedIn()) return RedirectToAction("Login", "Account");
             var userId = HttpContext.Session.GetInt32("UserId") ?? 1;
             var transactions = _context.Transactions
                 .Include(t => t.Category)
@@ -33,6 +36,7 @@ namespace FinanceTracker.Controllers
         // GET: Transactions/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            if (!IsLoggedIn()) return RedirectToAction("Login", "Account");
             if (id == null)
             {
                 return NotFound();
@@ -53,6 +57,7 @@ namespace FinanceTracker.Controllers
         // GET: Transactions/Create
         public IActionResult Create()
         {
+            if (!IsLoggedIn()) return RedirectToAction("Login", "Account");
             ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryID", "Name");
   
             return View();
@@ -65,6 +70,7 @@ namespace FinanceTracker.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("TransactionId,Amount,Description,Date,CategoryId")] Transaction transaction)
         {
+            if (!IsLoggedIn()) return RedirectToAction("Login", "Account");
             transaction.UserId = HttpContext.Session.GetInt32("UserId") ?? 1;
             ModelState.Remove("User"); // remove nav property validation
             ModelState.Remove("UserId");
@@ -82,6 +88,7 @@ namespace FinanceTracker.Controllers
         // GET: Transactions/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            if (!IsLoggedIn()) return RedirectToAction("Login", "Account");
             if (id == null)
             {
                 return NotFound();
@@ -103,6 +110,7 @@ namespace FinanceTracker.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("TransactionId,Amount,Description,Date,CategoryId")] Transaction transaction)
         {
+            if (!IsLoggedIn()) return RedirectToAction("Login", "Account");
             if (id != transaction.TransactionId)
             {
                 return NotFound();
@@ -139,6 +147,7 @@ namespace FinanceTracker.Controllers
         // GET: Transactions/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            if (!IsLoggedIn()) return RedirectToAction("Login", "Account");
             if (id == null)
             {
                 return NotFound();
@@ -161,6 +170,7 @@ namespace FinanceTracker.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (!IsLoggedIn()) return RedirectToAction("Login", "Account");
             var transaction = await _context.Transactions.FindAsync(id);
             if (transaction != null)
             {
