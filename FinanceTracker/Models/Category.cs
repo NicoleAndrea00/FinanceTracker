@@ -11,7 +11,7 @@ namespace FinanceTracker.Models
         public string Name { get; set; }
 
         [Required]
-        [RegularExpression(@"^(Income|Expense)$", ErrorMessage = "Type must be either 'Income' or 'Expense'")]
+        [RegularExpression(@"^(Income|Expense|Savings)$", ErrorMessage = "Type must be either 'Income' , 'Expense' or 'Savings")]
         public string Type {  get; set; } //Income or Expense
     }
 }

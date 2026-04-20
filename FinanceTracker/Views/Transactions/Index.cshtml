@@ -9,6 +9,47 @@
     <a asp-action="Create" class="btn btn-primary">+ Add Transaction</a>
 </div>
 
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card text-white bg-success">
+            <div class="card-body">
+                <h6 class="card-title">Total Income</h6>
+                <h4 class="card-text">€@ViewBag.TotalIncome.ToString("0.00")</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-danger">
+            <div class="card-body">
+                <h6 class="card-title">Total Expenses</h6>
+                <h4 class="card-text">€@ViewBag.TotalExpenses.ToString("0.00")</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-primary">
+            <div class="card-body">
+                <h6 class="card-title">Net Savings</h6>
+                <h4 class="card-text">€@ViewBag.NetSavings.ToString("0.00")</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <a asp-action="Savings" style="text-decoration: none;">
+            <div class="card text-white bg-info" style="cursor: pointer;">
+                <div class="card-body">
+                    <h6 class="card-title">Savings Rate ↗</h6>
+                    <h4 class="card-text">@ViewBag.SavingsRate%</h4>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="alert alert-secondary mb-3">
+    <strong>Top Expense Category this month:</strong> @ViewBag.TopCategory
+</div>
+
 @if (!Model.Any())
 {
     <div class="alert alert-info">No transactions yet — click Add Transaction to get started!</div>
@@ -36,6 +77,10 @@ else
                         {
                             <span class="text-success fw-bold">+ €@item.Amount.ToString("0.00")</span>
                         }
+                        else if (item.Category.Type == "Savings")
+                        {
+                            <span class="text-primary fw-bold">~ €@item.Amount.ToString("0.00")</span>
+                        }
                         else
                         {
                             <span class="text-danger fw-bold">- €@item.Amount.ToString("0.00")</span>
@@ -45,6 +90,10 @@ else
                         @if (item.Category.Type == "Income")
                         {
                             <span class="badge bg-success">@item.Category.Name</span>
+                        }
+                        else if (item.Category.Type == "Savings")
+                        {
+                            <span class="badge bg-primary">@item.Category.Name</span>
                         }
                         else
                         {

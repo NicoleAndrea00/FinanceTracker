@@ -2,33 +2,40 @@
     ViewData["Title"] = "Login";
 }
 
-<h2>Login</h2>
-
 @if (ViewBag.Error != null)
 {
     <div class="alert alert-danger">@ViewBag.Error</div>
 }
 
-<div class="row">
+<div class="row justify-content-center mt-4">
     <div class="col-md-4">
-        <form asp-action="Login" method="post">
-            <div class="form-group">
-                <label>Email</label>
-                <input type="email" name="email" class="form-control" required />
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Login</h4>
             </div>
-            <div class="form-group mt-2">
-                <label>Password</label>
-                <div class="input-group">
-                    <input type="password" name="password" id="password" class="form-control" required />
-                    <span class="input-group-text" id="toggleBtn" onclick="togglePassword()" style="cursor: pointer;">Show</span>
-                </div>
-            <div class="form-group mt-3">
-                <input type="submit" value="Login" class="btn btn-primary" />
+            <div class="card-body">
+                <form asp-action="Login" method="post">
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" name="email" class="form-control" required />
+                    </div>
+                    <div class="form-group mt-2">
+                        <label>Password</label>
+                        <div class="input-group">
+                            <input type="password" name="password" id="password" class="form-control" required />
+                            <span class="input-group-text" id="toggleBtn" onclick="togglePassword()" style="cursor: pointer;">Show</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-3">
+                        <a asp-action="Register" class="btn btn-outline-secondary">Register</a>
+                        <input type="submit" value="Login" class="btn btn-primary" />
+                    </div>
+                </form>
             </div>
-        </form>
-        <p class="mt-2">Don't have an account? <a asp-action="Register">Register here</a></p>
+        </div>
     </div>
 </div>
+
 <script>
     function togglePassword() {
         var input = document.getElementById("password");

@@ -33,10 +33,15 @@ else
                         {
                             <span class="badge bg-success">Income</span>
                         }
+                        else if (item.Type =="Savings")
+                        {
+                            <span class="badge bg-primary">Savings</span>
+                        }
                         else
                         {
                             <span class="badge bg-danger">Expense</span>
                         }
+
                     </td>
                     <td>
                         <a asp-action="Edit" asp-route-id="@item.CategoryID" class="btn btn-sm btn-outline-primary">Edit</a>

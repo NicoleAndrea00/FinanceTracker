@@ -10,6 +10,7 @@ namespace FinanceTracker.Models
 
         [Required]
         [Column(TypeName ="decimal(18,2)")]  //18 digits with 2 decimal places 
+        [Range(0.01, double.MaxValue, ErrorMessage = "Amount must be greater than 0")]
         public decimal Amount { get; set; }
 
         public string Description { get; set; }
