@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>Register</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Register" method="post">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" name="name" class="form-control" required />
+            </div>
+            <div class="form-group mt-2">
+                <label>Email</label>
+                <input type="email" name="email" class="form-control" required />
+            </div>
+            <div class="form-group mt-2">
+                <label>Password</label>
+                <div class="input-group">
+                    <input type="password" name="password" id="password" class="form-control" required />
+                    <span class="input-group-text" id="toggleBtn" onclick="togglePassword()" style="cursor: pointer;">Show</span>
+                </div>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Register" class="btn btn-primary" />
+            </div>
+        </form>
+        <p class="mt-2">Already have an account? <a asp-action="Login">Login here</a></p>
+    </div>
+</div>
+
+<script>
+    function togglePassword() {
+        var input = document.getElementById("password");
+        var span = document.getElementById("toggleBtn");
+        if (input.type === "password") {
+            input.type = "text";
+            span.textContent = "Hide";
+        } else {
+            input.type = "password";
+            span.textContent = "Show";
+        }
+    }
+</script>

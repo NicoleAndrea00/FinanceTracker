@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "FinanceTracker.Controllers.AnalysisController",
+    "Method": "GetSummary",
+    "RelativePath": "api/Analysis/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

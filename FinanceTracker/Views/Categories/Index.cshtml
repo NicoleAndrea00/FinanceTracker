@@ -1,0 +1,50 @@
+﻿@model IEnumerable<FinanceTracker.Models.Category>
+
+@{
+    ViewData["Title"] = "Categories";
+}
+
+<div class="d-flex justify-content-between align-items-center mt-4 mb-3">
+    <h2>Categories</h2>
+    <a asp-action="Create" class="btn btn-primary">+ Add Category</a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">No categories yet — click Add Category to get started!</div>
+}
+else
+{
+    <table class="table table-hover table-bordered align-middle">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>
+                        @if (item.Type == "Income")
+                        {
+                            <span class="badge bg-success">Income</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">Expense</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.CategoryID" class="btn btn-sm btn-outline-primary">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.CategoryID" class="btn btn-sm btn-outline-secondary">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.CategoryID" class="btn btn-sm btn-outline-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,51 @@
+﻿@model FinanceTracker.Models.User
+
+@{
+    ViewData["Title"] = "My Account";
+}
+
+<h2>My Account</h2>
+<hr />
+
+@if (ViewBag.Success != null)
+{
+    <div class="alert alert-success">@ViewBag.Success</div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <h4>Account Details</h4>
+        <dl class="row">
+            <dt class="col-sm-4">Name</dt>
+            <dd class="col-sm-8">@Model.Name</dd>
+            <dt class="col-sm-4">Email</dt>
+            <dd class="col-sm-8">@Model.Email</dd>
+        </dl>
+
+        <hr />
+
+        <h4>Change Password</h4>
+        <form asp-action="ChangePassword" method="post">
+            <div class="form-group">
+                <label>Current Password</label>
+                <input type="password" name="currentPassword" class="form-control" required />
+            </div>
+            <div class="form-group mt-2">
+                <label>New Password</label>
+                <input type="password" name="newPassword" class="form-control" required />
+            </div>
+            <div class="form-group mt-2">
+                <label>Confirm New Password</label>
+                <input type="password" name="confirmPassword" class="form-control" required />
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Change Password" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,424 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MiniProject\\FinanceTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\transactions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\transactions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EAE7B83-D27A-4E3B-8AE3-446A66CE0F94}|FinanceTracker.ConsoleClient\\FinanceTracker.ConsoleClient.csproj|c:\\miniproject\\financetracker\\financetracker.consoleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EAE7B83-D27A-4E3B-8AE3-446A66CE0F94}|FinanceTracker.ConsoleClient\\FinanceTracker.ConsoleClient.csproj|solutionrelative:financetracker.consoleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\transactions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\transactions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\transactions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\transactions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\transactions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\transactions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\transactions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\transactions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\controllers\\analysiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\controllers\\analysiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-19T17:09:26.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-19T16:46:41.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\appsettings.json",
+              "RelativeDocumentMoniker": "FinanceTracker\\appsettings.json",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\appsettings.json",
+              "RelativeToolTip": "FinanceTracker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-19T16:07:25.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FinanceTracker\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FinanceTracker\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T20:22:20.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T15:54:46.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAABAVAAAAAAAAAADgvxIVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-15T14:47:49.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AnalysisController.cs",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Controllers\\AnalysisController.cs",
+              "RelativeDocumentMoniker": "FinanceTracker\\Controllers\\AnalysisController.cs",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Controllers\\AnalysisController.cs",
+              "RelativeToolTip": "FinanceTracker\\Controllers\\AnalysisController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:46:30.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker.ConsoleClient\\Program.cs",
+              "RelativeDocumentMoniker": "FinanceTracker.ConsoleClient\\Program.cs",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker.ConsoleClient\\Program.cs",
+              "RelativeToolTip": "FinanceTracker.ConsoleClient\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:30:10.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:11:38.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T14:11:21.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "FinanceTracker\\Models\\Category.cs",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Models\\Category.cs",
+              "RelativeToolTip": "FinanceTracker\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:10:24.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T12:56:54.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Transactions\\Delete.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Delete.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Transactions\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T12:54:12.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Details.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Transactions\\Details.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Details.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Transactions\\Details.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAADgvy0AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T12:51:15.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Transactions\\Edit.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Edit.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Transactions\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T12:49:15.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T12:43:13.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T12:40:58.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Transactions\\Create.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Create.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Transactions\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T12:29:06.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-01T17:03:10.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FinanceTracker\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FinanceTracker\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwFcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T16:57:48.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "FinanceTracker\\Models\\Transaction.cs",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Models\\Transaction.cs",
+              "RelativeToolTip": "FinanceTracker\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T16:48:17.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Transactions\\Index.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Index.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Transactions\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCQAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-01T16:46:25.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "FinanceTracker\\Controllers\\TransactionsController.cs",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "FinanceTracker\\Controllers\\TransactionsController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAA7wA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T16:38:22.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FinanceTracker\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-01T16:35:15.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Program.cs",
+              "RelativeDocumentMoniker": "FinanceTracker\\Program.cs",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Program.cs",
+              "RelativeToolTip": "FinanceTracker\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T18:02:30.079Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
