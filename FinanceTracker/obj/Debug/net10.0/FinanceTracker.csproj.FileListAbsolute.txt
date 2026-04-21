@@ -338,4 +338,3 @@ C:\MiniProject\FinanceTracker\FinanceTracker\bin\Debug\net10.0\zh-Hans\Microsoft
 C:\MiniProject\FinanceTracker\FinanceTracker\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\MiniProject\FinanceTracker\FinanceTracker\bin\Debug\net10.0\BCrypt.Net-Next.dll
 C:\MiniProject\FinanceTracker\FinanceTracker\obj\Debug\net10.0\FinanceTracker.sourcelink.json
-C:\MiniProject\FinanceTracker\FinanceTracker\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

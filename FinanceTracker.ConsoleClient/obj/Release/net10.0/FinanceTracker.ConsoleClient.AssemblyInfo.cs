@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinanceTracker.ConsoleClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5672c011ae6593b4ae3aee9da180196fd5d24294")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinanceTracker.ConsoleClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinanceTracker.ConsoleClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

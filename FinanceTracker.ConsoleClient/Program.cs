@@ -9,7 +9,7 @@ Console.WriteLine();
 try
 {
     var client = new HttpClient();
-    var response = await client.GetAsync("http://localhost:5299/api/analysis/summary");
+    var response = await client.GetAsync("https://financetrackernicole-bhbfgxfjfkesdyhb.canadacentral-01.azurewebsites.net/api/analysis/summary");
 
     if (response.IsSuccessStatusCode)
     {
@@ -17,11 +17,13 @@ try
         var data = JsonSerializer.Deserialize<JsonElement>(json);
         Console.WriteLine($"Total Income:          €{data.GetProperty("totalIncome").GetDecimal():0.00}");
         Console.WriteLine($"Total Expenses:        €{data.GetProperty("totalExpenses").GetDecimal():0.00}");
-        Console.WriteLine($"Net Savings:           €{data.GetProperty("netSavings").GetDecimal():0.00}");
         Console.WriteLine($"Savings Rate:          {data.GetProperty("savingsRate").GetDecimal():0.00}%");
         Console.WriteLine($"Top Expense Category:  {data.GetProperty("topExpenseCategory").GetString()}");
+        Console.WriteLine();
+        Console.WriteLine("Monthly Trend:");
+        Console.WriteLine("------------------------------------");
 
-        var trend = data.GetProperty("sixMonthTrend");
+        var trend = data.GetProperty("monthlyTrend");
         foreach (var month in trend.EnumerateArray())
         {
             Console.WriteLine($"  {month.GetProperty("month").GetString()}: " +
@@ -42,4 +44,4 @@ catch (Exception ex)
 
 Console.WriteLine();
 Console.WriteLine("====================================");
-Console.ReadLine();
+Console.ReadLine(); 

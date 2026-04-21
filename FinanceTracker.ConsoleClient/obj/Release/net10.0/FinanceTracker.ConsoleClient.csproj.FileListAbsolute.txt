@@ -1,0 +1,15 @@
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\bin\Release\net10.0\FinanceTracker.ConsoleClient.exe
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\bin\Release\net10.0\FinanceTracker.ConsoleClient.deps.json
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\bin\Release\net10.0\FinanceTracker.ConsoleClient.runtimeconfig.json
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\bin\Release\net10.0\FinanceTracker.ConsoleClient.dll
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\bin\Release\net10.0\FinanceTracker.ConsoleClient.pdb
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\obj\Release\net10.0\FinanceTracker.ConsoleClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\obj\Release\net10.0\FinanceTracker.ConsoleClient.AssemblyInfoInputs.cache
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\obj\Release\net10.0\FinanceTracker.ConsoleClient.AssemblyInfo.cs
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\obj\Release\net10.0\FinanceTracker.ConsoleClient.csproj.CoreCompileInputs.cache
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\obj\Release\net10.0\FinanceTracker.ConsoleClient.sourcelink.json
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\obj\Release\net10.0\FinanceTracker.ConsoleClient.dll
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\obj\Release\net10.0\refint\FinanceTracker.ConsoleClient.dll
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\obj\Release\net10.0\FinanceTracker.ConsoleClient.pdb
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\obj\Release\net10.0\FinanceTracker.ConsoleClient.genruntimeconfig.cache
+C:\MiniProject\FinanceTracker\FinanceTracker.ConsoleClient\obj\Release\net10.0\ref\FinanceTracker.ConsoleClient.dll

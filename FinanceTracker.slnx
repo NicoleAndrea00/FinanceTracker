@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="FinanceTracker.ConsoleClient/FinanceTracker.ConsoleClient.csproj" Id="5eae7b83-d27a-4e3b-8ae3-446a66ce0f94" />
+  <Project Path="FinanceTracker.Tests/FinanceTracker.Tests.csproj" Id="fccb177d-edd4-441e-8c8a-b9a01c16915c" />
   <Project Path="FinanceTracker/FinanceTracker.csproj" />
 </Solution>

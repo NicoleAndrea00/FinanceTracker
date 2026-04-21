@@ -46,8 +46,8 @@ namespace FinanceTracker.Controllers
                 .OrderByDescending(g => g.Sum(t => t.Amount))
                 .FirstOrDefault()?.Key ?? "No expenses yet";
 
-            var sixMonthsTrend = transactions
-                .Where(t => t.Date >= DateTime.Now.AddMonths(-6))
+            var monthlyTrend = transactions
+                .Where(t => t.Date >= DateTime.Now.AddMonths(-1))
                 .GroupBy(t => new { t.Date.Year, t.Date.Month })
                 .OrderBy(g => g.Key.Year).ThenBy(g => g.Key.Month)
                 .Select(g => new
@@ -65,7 +65,7 @@ namespace FinanceTracker.Controllers
                 NetSavings = totalIncome - totalExpenses,
                 SavingsRate = savingsRate,
                 TopExpenseCategory = topCategory,
-                SixMonthTrend = sixMonthsTrend
+                MonthlyTrend = monthlyTrend
             });
         }
     }
