@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\MiniProject\\FinanceTracker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\transactions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\transactions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|c:\\miniproject\\financetracker\\financetracker\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{035291ED-96CE-D287-A03B-DBA1759FE681}|FinanceTracker\\FinanceTracker.csproj|solutionrelative:financetracker\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,24 +62,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "FinanceTracker\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Account\\Register.cshtml*",
-              "RelativeToolTip": "FinanceTracker\\Views\\Account\\Register.cshtml*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "FinanceTracker\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-21T19:22:54.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Account\\Index.cshtml",
               "RelativeDocumentMoniker": "FinanceTracker\\Views\\Account\\Index.cshtml",
@@ -92,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FinanceTracker.Tests",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker.Tests\\FinanceTracker.Tests.csproj",
               "RelativeDocumentMoniker": "FinanceTracker.Tests\\FinanceTracker.Tests.csproj",
@@ -105,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "FinanceTracker.Tests\\UnitTest1.cs",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AnalysisController.cs",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Controllers\\AnalysisController.cs",
               "RelativeDocumentMoniker": "FinanceTracker\\Controllers\\AnalysisController.cs",
@@ -131,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Edit.cshtml",
               "RelativeDocumentMoniker": "FinanceTracker\\Views\\Categories\\Edit.cshtml",
@@ -144,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Details.cshtml",
               "RelativeDocumentMoniker": "FinanceTracker\\Views\\Categories\\Details.cshtml",
@@ -157,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "FinanceTracker\\Views\\Categories\\Delete.cshtml",
@@ -170,20 +170,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Create.cshtml",
               "RelativeDocumentMoniker": "FinanceTracker\\Views\\Categories\\Create.cshtml",
-              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Create.cshtml",
-              "RelativeToolTip": "FinanceTracker\\Views\\Categories\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Categories\\Create.cshtml*",
+              "RelativeToolTip": "FinanceTracker\\Views\\Categories\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-21T17:34:29.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Delete.cshtml",
               "RelativeDocumentMoniker": "FinanceTracker\\Views\\Transactions\\Delete.cshtml",
@@ -196,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Index.cshtml",
               "RelativeDocumentMoniker": "FinanceTracker\\Views\\Transactions\\Index.cshtml",
@@ -209,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker\\Views\\Transactions\\Details.cshtml",
               "RelativeDocumentMoniker": "FinanceTracker\\Views\\Transactions\\Details.cshtml",
@@ -222,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\MiniProject\\FinanceTracker\\FinanceTracker.ConsoleClient\\Program.cs",
               "RelativeDocumentMoniker": "FinanceTracker.ConsoleClient\\Program.cs",
